@@ -4,7 +4,7 @@
  * @Author: WuTao
  * @Date: 2020-01-05 17:12:54
  * @LastEditors  : WuTao
- * @LastEditTime : 2020-01-07 14:02:24
+ * @LastEditTime : 2020-01-08 23:42:48
  */
 import React, { Component } from 'react'
 import { Redirect, Route, Switch } from 'react-router-dom'
@@ -37,11 +37,11 @@ export default class Admin extends Component {
         <Sider><LeftNav /></Sider>
         <Layout>
           <Header>Header</Header>
-          <Content style={{backgroundColor: '#fff'}}>
+          <Content style={{margin: '20px', backgroundColor: '#fff'}}>
             <Switch>
               <Route path='/home' component={Home} />
-              <Route path='/category' component={Category} />
-              <Route path='/products' component={Product} />
+              <Route path='/products/category' component={Category} />
+              <Route path='/products/manage' component={Product} />
               <Route path='/user' component={User} />
               <Route path='/role' component={Role} />
               <Route path='/charts/bar' component={Bar} />

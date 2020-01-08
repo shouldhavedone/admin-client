@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: WuTao
+ * @Date: 2020-01-07 13:44:18
+ * @LastEditors  : WuTao
+ * @LastEditTime : 2020-01-08 23:42:12
+ */
 const menuList = [
   {
     title: '首页',
@@ -11,12 +19,12 @@ const menuList = [
     children: [
       {
         title: '品类管理',
-        key: '/category',
+        key: '/products/category',
         icon: 'unordered-list'
       },
       {
         title: '商品管理',
-        key: '/product',
+        key: '/products/manage',
         icon: 'tool'
       },
     ]
